@@ -1,0 +1,44 @@
+/* 
+    Document   : HomeCss
+    Created on : Sep 2, 2013, 4:24:37 PM
+    Author     : bit
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+    font-family:arial;
+    font-size: medium;
+}
+table {
+    table-layout: fixed;
+    text-align: center;
+    width: 300px;
+    border-collapse: separate;
+    border-spacing: 10px 1px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color:green;
+    text-decoration: underline;
+}
+td.menu{
+    background:lightsteelblue;
+}
+table.menu
+{
+    text-align: left;
+    width: 130px;
+    font-size:80%;
+    position:absolute;
+    visibility:hidden;
+}
+tr{
+    background-color: #336699;
+}
+
+

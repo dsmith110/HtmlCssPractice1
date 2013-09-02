@@ -1,42 +1,15 @@
 <!--
-I am to Create a NetBeans Web Application called
-“
-HtmlCssPractice1 using HTML.
-Create a complex form that contains multiple textboxes, drop-down menus, radio
-buttons, checkboxes, textareas and buttons. 
-
-Use CSS to style the page in 3
-different ways (create 3 copies of the same page)
-
-1) Using inline styles
-2) Using
-embedded styles
-3) Using an external stylesheet
- 
-Post the resulting Netbeans
-project on GitHub
+To change this template, choose Tools | Templates
+and open the template in the editor.
 -->
 <!DOCTYPE html>
 <html>
     <head>
-        <title>CSS and HTML Practice</title>
+        <title></title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" type="text/css" href="CSS/HomeCss.css">
-        
-        <script>
-            function showmenu(elmnt)
-            {
-                document.getElementById(elmnt).style.visibility = "visible";
-            }
-            function hidemenu(elmnt)
-            {
-                document.getElementById(elmnt).style.visibility = "hidden";
-            }
-        </script>
     </head>
-
     <body>
-        
         <table>
             <tr>
                 <td onmouseover="showmenu('home')" onmouseout="hidemenu('home')">
@@ -61,9 +34,14 @@ project on GitHub
                 </td>
             </tr>
         </table>
-
-</html>
-
-
         
-
+        <br />
+        <br />
+        
+        <div>
+            <a style="color: darkblue; font-size: small; padding: 10px;" href="inlineCss.html">Inline Css</a><br/><br/>
+            <a style="color: darkblue; font-size: small; padding: 10px;" href="embeddedCss.html">Embedded Css</a><br/><br/>
+            <a style="color: darkblue; font-size: small; padding: 10px;" href="externalCss.html">External Css</a>
+        </div>
+    </body>
+</html>
