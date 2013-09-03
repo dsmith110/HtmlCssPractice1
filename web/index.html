@@ -1,57 +1,29 @@
-<!--
-I am to Create a NetBeans Web Application called
-“
-HtmlCssPractice1 using HTML.
-Create a complex form that contains multiple textboxes, drop-down menus, radio
-buttons, checkboxes, textareas and buttons. 
-
-Use CSS to style the page in 3
-different ways (create 3 copies of the same page)
-
-1) Using inline styles
-2) Using
-embedded styles
-3) Using an external stylesheet
- 
-Post the resulting Netbeans
-project on GitHub
--->
 <!DOCTYPE html>
 <html>
     <head>
         <title>CSS and HTML Practice</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" type="text/css" href="CSS/HomeCss.css">
-        
-        <script>
-            function showmenu(elmnt)
-            {
-                document.getElementById(elmnt).style.visibility = "visible";
-            }
-            function hidemenu(elmnt)
-            {
-                document.getElementById(elmnt).style.visibility = "hidden";
-            }
-        </script>
+        <script type="text/javascript" src="JS/JSResources.js"></script>
     </head>
 
     <body>
         
         <table>
             <tr>
-                <td onmouseover="showmenu('home')" onmouseout="hidemenu('home')">
+                <td onmouseover="showmenu('home');" onmouseout="hidemenu('home');">
                     <a href="index.html">Home</a><br>
                     <table class="menu" id="home">
                     </table>
                 </td>
-                <td onmouseover="showmenu('about')" onmouseout="hidemenu('about')">
-                    <a href="index.html">About</a><br>
+                <td onmouseover="showmenu('about');" onmouseout="hidemenu('about');">
+                    <a href="about.html">About</a><br>
                     <table class="menu" id="about">
                         <tr><td class="menu"><a href="about.html">About</a></td></tr>
                         <tr><td class="menu"><a href="services.html">Services</a></td></tr>
                     </table>
                 </td>
-                <td onmouseover="showmenu('pages')" onmouseout="hidemenu('pages')">
+                <td onmouseover="showmenu('pages');" onmouseout="hidemenu('pages');">
                     <a href="pages.html">Pages</a><br>
                     <table class="menu" id="pages">
                         <tr><td class="menu"><a href="inlineCss.html">Inline CSS</a></td></tr>
@@ -61,7 +33,39 @@ project on GitHub
                 </td>
             </tr>
         </table>
-
+        
+        <br/>
+        <div style="padding: 10px;">Using HTML,
+            create a complex form that contains:<br /> 
+        <ul>
+            <li>multiple text boxes</li>
+            <li>drop-down menus</li>
+            <li>radio buttons</li>
+            <li>check boxes</li>
+            <li>text areas</li>
+            <li>buttons</li>
+        </ul>
+            
+            <br />
+            
+            Use CSS to style the page in 3
+            different ways (create 3 copies of the same page):
+            <br />
+        <ol>
+            <li>
+                using inline styles
+            </li>
+            <li>
+                using embedded styles
+            </li>
+            <li>
+                using an external style sheet
+            </li>
+        </ol>
+        </div>
+           
+        
+        
 </html>
 
 

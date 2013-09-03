@@ -1,31 +1,28 @@
-<!--
-To change this template, choose Tools | Templates
-and open the template in the editor.
--->
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>Showcasing Inline CSS</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" type="text/css" href="CSS/HomeCss.css">
+        <script type="text/javascript" src="JS/JSResources.js"></script>
     </head>
     <body>
         
         <table>
             <tr>
-                <td onmouseover="showmenu('home')" onmouseout="hidemenu('home')">
+                <td onmouseover="showmenu('home');" onmouseout="hidemenu('home');">
                     <a href="index.html">Home</a><br>
                     <table class="menu" id="home">
                     </table>
                 </td>
-                <td onmouseover="showmenu('about')" onmouseout="hidemenu('about')">
-                    <a href="index.html">About</a><br>
+                <td onmouseover="showmenu('about');" onmouseout="hidemenu('about');">
+                    <a href="about.html">About</a><br>
                     <table class="menu" id="about">
                         <tr><td class="menu"><a href="about.html">About</a></td></tr>
                         <tr><td class="menu"><a href="services.html">Services</a></td></tr>
                     </table>
                 </td>
-                <td onmouseover="showmenu('pages')" onmouseout="hidemenu('pages')">
+                <td onmouseover="showmenu('pages');" onmouseout="hidemenu('pages');">
                     <a href="pages.html">Pages</a><br>
                     <table class="menu" id="pages">
                         <tr><td class="menu"><a href="inlineCss.html">Inline CSS</a></td></tr>
@@ -36,31 +33,28 @@ and open the template in the editor.
             </tr>
         </table>
         
-        <select>
-            <option value="Hello">Hello</option>
-            <option value="world">world</option>
-        </select>
-
-        <input type="submit" value="submit">
-
         <br />
-        <form>
-            <input type="radio" name="first" value="Hello">Hello<br />
-            <input type="radio" name="first" value="Helloo">Helloo<br />
-            <input type="radio" name="first" value="Hellooow">Helloow<br />
+        <form style="border-style: solid; border-width: 1px; width: 250px; border-color: lightgray;
+              padding: 20px; margin: 10px;">
+            <div>
+                <input type="radio" name="gender" value="Male">Male<br />
+                <input type="radio" name="gender" value="Female">Female<br />
+            </div>
+
+            <div style="font-size: small;">
+                <p>First Name: <input type="text" name="fName"></p>
+                <p>Last Name: <input type="text" name="lName"></p>
+            </div>
+
+            <div>
+                <p style="font-size: x-small">Known Languages (Select all that apply)</p>
+                <input type="checkbox" name="" value="">Java<br />
+                <input type="checkbox" name="" value="">Visual Basic<br />
+                <input type="checkbox" name="" value="">Javascript<br />
+            </div>
         </form>
-        
-        <form>
-            <input type="text" name="world">world
-        </form>
-        
-        <form>
-            <input type="checkbox" name="" value="">Hello<br />
-            <input type="checkbox" name="" value="">Helloo<br />
-            <input type="checkbox" name="" value="">Helloow<br />
-        </form>
-        
-        <input  type="submit" value="submit2">
+        <input  style="margin: 10px; font-size: small" type="button" value="Submit"
+                onclick="storedInfo();">
     </body>
 
 </html>

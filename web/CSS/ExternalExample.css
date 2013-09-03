@@ -1,0 +1,30 @@
+/* 
+    Document   : Embedded
+    Created on : Sep 2, 2013, 6:37:05 PM
+    Author     : Dan Smith
+    Description:
+        This style sheet is used for the external stylesheet example.
+*/
+
+form.one{
+    border-style: solid;
+    border-width: 1px;
+    width: 250px;
+    border-color: lightgray;
+    padding: 20px;
+    margin: 10px;
+}
+
+p.one{
+    font-size: x-small;
+}
+
+input.one {
+    margin: 10px;
+    font-size: small;
+}
+
+div.one {
+    font-size: small;
+}
+

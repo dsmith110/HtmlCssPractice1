@@ -1,0 +1,25 @@
+/* 
+    Document   : AboutCss
+    Created on : Sep 2, 2013, 7:26:56 PM
+    Author     : bit
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+h2 {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}
+
+
+img.one {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
